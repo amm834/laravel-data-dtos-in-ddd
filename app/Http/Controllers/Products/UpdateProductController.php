@@ -3,7 +3,7 @@
 namespace App\Http\Controllers\Products;
 
 use App\Domains\Product\DTOs\ProductData;
-use App\Domains\Product\ProductService;
+use App\Domains\Product\Services\ProductService;
 use App\Models\Product;
 
 class UpdateProductController

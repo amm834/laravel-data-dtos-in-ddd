@@ -1,7 +1,8 @@
 <?php
 
-namespace App\Domains\Product;
+namespace App\Domains\Product\Services;
 
+use App\Domains\Product\DTOs\ProductData;
 use App\Models\Product;
 
 class ProductService
