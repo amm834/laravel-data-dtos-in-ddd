@@ -1,11 +1,11 @@
 <?php
 
-namespace App\Http\Controllers\Product;
+namespace App\Http\Controllers\Products;
 
 use App\Domains\Product\DTOs\ProductData;
 use App\Http\Controllers\Controller;
 
-class ListingProductController extends Controller
+class GetProductsController extends Controller
 {
     public function __invoke(ProductData $productData)
     {
